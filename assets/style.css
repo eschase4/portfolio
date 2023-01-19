@@ -20,6 +20,7 @@ padding: 20px 10px;
 border-width: 2px;
 border-color: black;
 background-color: blueviolet;
+align: center;
 }
 
 #debug {
@@ -46,3 +47,7 @@ background-color: blueviolet;
     margin: 10Spx 20px;
 }
 
+#movieApp:hover {
+    background-color: aqua;
+    content: attr(alt);
+}
