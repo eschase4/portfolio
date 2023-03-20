@@ -47,7 +47,7 @@ align: center;
     margin: 10Spx 20px;
 }
 
-#movieApp:hover {
+.work:hover {
     background-color: aqua;
-    content: attr(alt);
+    /* content: attr(alt); */
 }
