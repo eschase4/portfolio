@@ -1,7 +1,8 @@
 {
-  "name": "my-mantine-app",
+  "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://eschase4.github.io/",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@mantine/core": "^6.0.15",
@@ -14,6 +15,7 @@
     "@types/node": "^16.18.38",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-responsive-carousel": "^3.2.23",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
