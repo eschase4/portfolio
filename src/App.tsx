@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter basename="/">
         <HeaderComponent />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/*" element={<Home />} />
           <Route path="/projects" element={<ProjectSection />} />
         </Routes>
       </BrowserRouter>
