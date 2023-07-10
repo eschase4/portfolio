@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://eschase4.github.io",
+  "homepage": "https://eschase4.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@mantine/core": "^6.0.15",
