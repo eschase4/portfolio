@@ -1,18 +1,6 @@
 import React from 'react';
 import { Container, Paper, Title, Text, Divider } from '@mantine/core';
 const shape =  process.env.PUBLIC_URL + '/assets/coolshape.png'
-const highlights = [
-  {
-    title: 'Project 1',
-    img: 'https://via.placeholder.com/300x200',
-    description: 'This is a description of project 1',
-  },
-  {
-    title: 'Project 2',
-    img: 'https://via.placeholder.com/300x200',
-    description: 'This is a description of project 2',
-  },
-];
 
 const Home = () => {
   return (
