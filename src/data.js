@@ -4,7 +4,7 @@ const techBlogPreview = process.env.PUBLIC_URL + '/assets/techblog.png';
 const forecastPreview = process.env.PUBLIC_URL + '/assets/Forecast.png';
 const portfolioPreview = process.env.PUBLIC_URL + '/assets/firstportfolio.png';
 const readmePreview = process.env.PUBLIC_URL + '/assets/readme.png';
-
+const creepyPreview = process.env.PUBLIC_URL + '/assets/creepyPost.png';
 
 const projects = [
     {
@@ -43,11 +43,11 @@ const projects = [
         repoLink: "https://github.com/eschase4/README-Generator"
     },
     {
-        name: "First Portfolio",
-        link: "https://fathomless-thicket-47575.herokuapp.com/home",
-        preview: portfolioPreview,
-        description: "This was my original portfolio I made during Week 2 of my bootcamp. It just show's you how far I've come :)",
-        repoLink: "https://github.com/eschase4/Portfolio"
+        name: "CreepyPostBot",
+        link: "https://twitter.com/CreepyPostBot",
+        preview: creepyPreview,
+        description: "My first expirement with OpenAI's GPT-3 API. Using a cron job to set an interval, the bot will post a random AI generated creepy story to a twitter account every 4 hours. Written in Node.js, and hosted by Heroku.",
+        repoLink: "https://github.com/eschase4/CreepyPostsBot"
     },
 
 ]
