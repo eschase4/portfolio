@@ -30,10 +30,10 @@ const ProjectGrid = () => {
             </Title>
             <Text style={{ marginBottom: '1rem' }}>{project.description}</Text>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-              <Button component="a" href={project.link} target="_blank" color="teal">
+              <Button component="a" href={project.link} target="_blank" color="dark.5" variant="filled">
                 Live App
               </Button>
-              <Button component="a" href={project.repoLink} target="_blank" color="blue">
+              <Button component="a" href={project.repoLink} target="_blank" color="dark.5" variant="filled">
                 GitHub Repo
               </Button>
             </div>
