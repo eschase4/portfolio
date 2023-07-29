@@ -3,7 +3,7 @@ const playlistPreview = process.env.PUBLIC_URL + '/assets/myPlaylist.png';
 const techBlogPreview = process.env.PUBLIC_URL + '/assets/techblog.png';
 const forecastPreview = process.env.PUBLIC_URL + '/assets/Forecast.png';
 const readmePreview = process.env.PUBLIC_URL + '/assets/readme.png';
-const creepyPreview = process.env.PUBLIC_URL + '/assets/creepyPost.png';
+const creepyPreview = process.env.PUBLIC_URL + '/assets/CreepyPost.png';
 const musicPreview = process.env.PUBLIC_URL + '/assets/MusicMatch.png';
 
 const projects = [
