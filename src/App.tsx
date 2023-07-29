@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <MantineProvider theme={{ colorScheme: 'dark'}}>
-      <BrowserRouter basename="/Portfolio">
+      <BrowserRouter basename="/portfolio">
         <HeaderComponent />
         <Routes>
           <Route path="/*" element={<Home />} />
