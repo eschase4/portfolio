@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { MantineProvider } from '@mantine/core';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import HeaderComponent from './components/Header';
 import Home from './pages/Home';
@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <MantineProvider theme={{ colorScheme: 'dark'}}>
-      <HashRouter basename="/portfolio">
+      <BrowserRouter basename="/portfolio">
         <HeaderComponent />
         <Routes>
           <Route path="/*" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/projects" element={<ProjectSection />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </MantineProvider>
   );
 }
