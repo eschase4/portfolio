@@ -1,26 +1,30 @@
 import React from 'react';
 import { Container, Title, Text, Paper } from '@mantine/core';
+import { Link } from 'react-router-dom';
 
 function About() {
   return (
     <Container id="about" size="md">
-      <Title order={3} style={{ marginBottom: '2rem' }}>
+      <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>
         About Me
       </Title>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <div style={{ flex: 1, marginRight: '2rem' }}>
           <Paper p="lg" shadow="xs" radius="md">
             <Text size="md">
-              Hi there! I'm Eli Chase, a passionate software engineer with a strong background in web development. I have
-              experience working with front-end technologies such as React, Vue.js, and Angular, as well as back-end
-              technologies like Node.js and Express. I love creating user-friendly and visually appealing web applications.
-              Whether it's building complex features or solving challenging problems, I'm always up for a coding adventure.
+              Hey! I'm Eli Chase, a recent bootcamp graduate with a focus on full stack development. I have
+              experience working with front-end technologies such as React,js, as well as back-end
+              technologies like Node.js and Express. I love working with data, and connecting the back end to the front end.
             </Text>
             <Text size="md" mt="lg">
-              When I'm not coding, you can find me exploring the great outdoors, playing video games, or experimenting in the
-              kitchen. I'm a firm believer in continuous learning, and I enjoy keeping up with the latest trends and
-              technologies in the software development world. I'm looking forward to working on exciting projects and
+              When I'm not coding, you can find me playing live with my band <Link style={{ color: 'grey' }} className='bandLink' to="https://open.spotify.com/artist/1f9BZQObzBu0lyVo0gwbYE?si=3NN8w4jbTmWTBjwssBxLbQ">Horseback Waterpolo</Link>,
+              going out for hikes, or practicing Jiu Jitsu. I'm a firm believer in continuous learning, and I enjoy keeping up with the latest trends and
+              technologies in the software development world. Recently I've been working on adding Python to my arsenal. I'm looking forward to working on exciting projects and
               collaborating with passionate teams to create innovative solutions.
+
+            </Text>
+            <Text mt="md">
+              I am currently located in my home town of Erie, PA, but I am open to relocation.
             </Text>
           </Paper>
         </div>
@@ -30,18 +34,24 @@ function About() {
               Education:
             </Text>
             <ul>
-              <li>Bachelor of Science in Computer Science - XYZ University</li>
-              <li>Online Courses and Certifications in Web Development and Software Engineering</li>
+              <li>Fullstack Web Developement Bootcamp Certificate - University of Pennsylvania</li>
+              <li>BA in Music - Mercyhurst University</li>
             </ul>
             <Text size="md" mt="lg">
               Skills:
             </Text>
             <ul>
-              <li>JavaScript (ES6+)</li>
+              <li>JavaScript</li>
               <li>React</li>
-              <li>Vue.js</li>
               <li>Node.js</li>
               <li>Express</li>
+              <li>Apollo Server</li>
+              <li>MySQL</li>
+              <li>Sequelize</li>
+              <li>Mongoose</li>
+              <li>GraphQL</li>
+              <li>MongoDB</li>
+              <li>TypeScript</li>
               <li>HTML/CSS</li>
               <li>Git</li>
               <li>RESTful APIs</li>

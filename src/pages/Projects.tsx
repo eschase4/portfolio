@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
-import { Container, Title, Text, Box, Paper, Button } from '@mantine/core';
-import { Carousel } from 'react-responsive-carousel';
+import { Container, Title, Text, Paper, Button } from '@mantine/core';
 import projects from '../data.js'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../index.css'
 
 const ProjectGrid = () => {
   return (
-    <Container>
-      <Title style={{ marginBottom: '2rem', color: 'lightgray'  }}>Featured Projects</Title>
+    <Container style={{width: '95%'}}>
+      <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>Featured Projects</Title>
       <div
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
-          gridGap: '1rem',
+          gridGap: '.05rem',
         }}
       >
         {projects.map((project, index) => (
@@ -22,7 +20,7 @@ const ProjectGrid = () => {
             shadow="lg"
             p="sm"
             radius="md"
-            style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}
+            style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '100%'}}
           >
             <img src={project.preview} alt={`Project ${index + 1}`} height={200} style={{ objectFit: 'cover' }} />
             <Title order={4} style={{ marginTop: '0.5rem' }}>

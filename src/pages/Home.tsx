@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Paper, Title, Text, Divider } from '@mantine/core';
+import '../index.css'
+
 const shape =  process.env.PUBLIC_URL + '/assets/coolshape.png'
+
 
 const Home = () => {
   return (

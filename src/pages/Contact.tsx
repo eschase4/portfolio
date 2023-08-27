@@ -49,7 +49,7 @@ function Contact() {
 
   return (
     <Container id="contact" size="md">
-      <Title order={3} style={{ marginBottom: '2rem', color: 'lightgray' }}>
+      <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>
         Contact
       </Title>
       <div style={{ display: 'block', justifyContent: 'space-between', alignItems: 'flex-start' }}>

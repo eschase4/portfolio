@@ -2,7 +2,6 @@ const movieFinderPreview = process.env.PUBLIC_URL + '/assets/Alabaster-Alligator
 const playlistPreview = process.env.PUBLIC_URL + '/assets/myPlaylist.png';
 const techBlogPreview = process.env.PUBLIC_URL + '/assets/techblog.png';
 const forecastPreview = process.env.PUBLIC_URL + '/assets/Forecast.png';
-const readmePreview = process.env.PUBLIC_URL + '/assets/readme.png';
 const creepyPreview = process.env.PUBLIC_URL + '/assets/CreepyPost.png';
 const musicPreview = process.env.PUBLIC_URL + '/assets/MusicMatch.png';
 
@@ -11,42 +10,42 @@ const projects = [
         name: "Musician Match",
         link: "https://enigmatic-woodland-26963.herokuapp.com/",
         preview: musicPreview,
-        description: "Powered by React, users can make an account, and match other musicians in their area. They can then message them, and set up a jam session. Essentially a dating app for musicians. Uses React, Node.js, Apollo Server, and GraphQL.",
+        description: "Social media match-making site for musicians. Uses React.js, Node.js, Apollo Server, GraphQL, and MongoDB.",
         repoLink: "https://github.com/eschase4/Musician-Match"
     },
     {
         name: "CreepyPostBot",
         link: "https://twitter.com/CreepyPostBot",
         preview: creepyPreview,
-        description: "My first expirement with OpenAI's GPT-3 API. Using a cron job to set an interval, the bot will post a random AI generated creepy story to a twitter account every 4 hours. Written in Node.js, and hosted by Heroku.",
+        description: "Tweets an AI generated horror story every few hours. Uses OpenAI's API, Twitter's API, and Node.js. Hosted on Heroku.",
         repoLink: "https://github.com/eschase4/CreepyPostsBot"
     },
     {
         name: "Movie Finder",
         link: "https://eschase4.github.io/Alabaster-Alligators/",
         preview: movieFinderPreview,
-        description: "Allows users to take a quiz about the mood that they are in, and recommends a movie based on the results. Uses rudimentary HTML, CSS, jQuery JavaScript, and makes some API calls.",
+        description: "An online Quiz that suggests a movie to users, and tells them where it is streaming. Made with JavaScript and jQuery.",
         repoLink: "https://github.com/eschase4/Alabaster-Alligators"
     },
     {
         name: "Playlist Maker",
         link: "https://enigmatic-island-78855.herokuapp.com/",
         preview: playlistPreview,
-        description: "Users can login and manage a personalized playlist. Uses express.js, node.js, Sequelize, Handlebars, and follows MVC file formatting.",
+        description: "Users can login and manage a personalized playlist. Uses Express.js, Node.js, Sequelize, and Handlebars.",
         repoLink: "https://github.com/eschase4/Green-Parade"
     },
     {
         name: "Tech Blog",
         link: "https://fathomless-thicket-47575.herokuapp.com/home",
         preview: techBlogPreview,
-        description: "Users can make accounts, log in, and post there thoughts on current tech topics that other users will be able to see on their homepage",
+        description: "Users can create an account, and post to a blog. Uses Express.js, Node.js, Sequelize, and Handlebars.",
         repoLink: "https://github.com/eschase4/Tech-Blog"
     },
     {
         name: "Weather Tracker",
         link: "https://eschase4.github.io/Weather-App/",
         preview: forecastPreview,
-        description: "My first use of third-party API's; users can enter a location, and recieve a five day forecast for the requested area.",
+        description: "Users can search for a city and recieve it's forecast for the next five days. Uses JavaScript, and the OpenWeather API",
         repoLink: "https://github.com/eschase4/Weather-App"
     },
 

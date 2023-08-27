@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Paper, Flex, Button} from '@mantine/core';
 import { Link } from 'react-router-dom';
 import '../index.css'
