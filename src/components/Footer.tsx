@@ -17,14 +17,14 @@ const FooterComponent = () => {
                 {/* email: eschase@gmail.com */}
                 <div >
                     <div style={{ display: 'flex', justifyContent: 'left', marginLeft: 100 }}>
-                        <a href="https://github.com/eschase4"><FontAwesomeIcon icon={faGithub} size='3x' color='white' style={{ margin: '10px' }} /></a>
-                        <a href="https://www.linkedin.com/in/eli-chase/"><FontAwesomeIcon icon={faLinkedin} size='3x' color='white' style={{ margin: '10px' }} /></a>
-                        <a href="https://www.instagram.com/eli.chase/"><FontAwesomeIcon icon={faInstagram} size='3x' color='white' style={{ margin: '10px' }} /></a>
-                        <a href="mailto:eschase4@gmail.com"><FontAwesomeIcon icon={faEnvelope} size='3x' color='white' style={{ margin: '10px' }} /></a>
+                        <a href="https://github.com/eschase4"><FontAwesomeIcon className='icon' icon={faGithub} size='3x' color='white' style={{ margin: '10px' }} /></a>
+                        <a href="https://www.linkedin.com/in/eli-chase/"><FontAwesomeIcon className='icon' icon={faLinkedin} size='3x' color='white' style={{ margin: '10px' }} /></a>
+                        <a href="https://www.instagram.com/eli.chase/"><FontAwesomeIcon className='icon' icon={faInstagram} size='3x' color='white' style={{ margin: '10px' }} /></a>
+                        <a href="mailto:eschase4@gmail.com"><FontAwesomeIcon className='icon' icon={faEnvelope} size='3x' color='white' style={{ margin: '10px' }} /></a>
                     </div>
                     <div style={{ display: 'flex', justifyContent: 'right', marginRight: '100px', paddingBottom: '20px', marginTop: '-50px' }}>
                         <Text style={{marginTop: '10px'}}>Click Here to Download My Resume:</Text>
-                        <a href={resumePDF}><FontAwesomeIcon icon={faDownload} size='3x' color='white' style={{ marginLeft: '20px', marginTop: '-6px'}} /></a>
+                        <a href={resumePDF}><FontAwesomeIcon className='icon' icon={faDownload} size='3x' color='white' style={{ marginLeft: '20px', marginTop: '-6px'}} /></a>
                     </div>
                 </div>
             </Paper>
