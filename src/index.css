@@ -102,8 +102,9 @@ code {
 .coolShape {
   opacity: 0; /* Initially hidden */
   position: absolute;
-  top: 0%;
+  top: 5%;
   left: 0%;
+  filter: invert(45%) blur(0.3px);
   /* transform: translate(-50%, -50%); */
   animation: fadeIn 2s forwards, spin 8s infinite linear;
   transform-origin: center;

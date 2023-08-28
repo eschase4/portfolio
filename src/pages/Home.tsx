@@ -11,7 +11,7 @@ const Home = () => {
       <Container size="xl" display='inline'>
 
         <div >
-          <img className='coolShape' src={shape} alt="shape" style={{ width: '30%', height: 'auto', marginLeft: '35%', marginTop: '12%' }} />
+          <img className='coolShape' src={shape} alt="shape" style={{ width: '35%', height: 'auto', marginLeft: '33%', marginTop: '9%' }} />
         </div>
       </Container>
     </Paper>
