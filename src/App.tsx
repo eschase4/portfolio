@@ -17,14 +17,14 @@ function App() {
     <MantineProvider theme={{ colorScheme: 'dark'}}>
       <BrowserRouter basename="/portfolio">
         <HeaderComponent />
-        <div style={{ height: '100%' }} >
+        {/* <div style={{ height: '100%' }} > */}
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<ProjectSection />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        </div>
+        {/* </div> */}
         <FooterComponent />
       </BrowserRouter>
     </MantineProvider>

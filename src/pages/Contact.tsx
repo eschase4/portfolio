@@ -48,65 +48,67 @@ function Contact() {
   }
 
   return (
-    <Container id="contact" size="md">
-      <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>
-        Contact
-      </Title>
-      <div style={{ display: 'block', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-        <div style={{ flex: 1 }}>
-          <Paper p="lg" shadow="xs" radius="md">
-            <form className="contact-form" onSubmit={sendEmail}>
-              <TextInput
-                label="Name"
-                name="from_name"
-                value={formValues.from_name}
-                onChange={handleInputChange}
-                required
-              />
-              <TextInput
-                label="Email"
-                name="from_email"
-                type="email"
-                value={formValues.from_email}
-                onChange={(event) => {
-                  handleInputChange(event);
-                  validateEmail(event.target.value);
-                }}
-                required
-              />
-              <TextInput
-                label="Subject"
-                name="subject"
-                value={formValues.subject}
-                onChange={handleInputChange}
-                required
-              />
-              <Textarea
-                label="Message"
-                name="html_message"
-                value={formValues.html_message}
-                onChange={handleInputChange}
-                required
-                rows={5}
-              />
-              <Button type="submit" style={{ marginTop: 22}}>Send</Button>
-            </form>
-          </Paper>
+    <div style={{ minHeight: '100vh' }}>
+      <Container id="contact" size="md" mb="xl">
+        <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>
+          Contact
+        </Title>
+        <div style={{ display: 'block', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+          <div style={{ flex: 1 }}>
+            <Paper p="lg" shadow="xs" radius="md">
+              <form className="contact-form" onSubmit={sendEmail}>
+                <TextInput
+                  label="Name"
+                  name="from_name"
+                  value={formValues.from_name}
+                  onChange={handleInputChange}
+                  required
+                />
+                <TextInput
+                  label="Email"
+                  name="from_email"
+                  type="email"
+                  value={formValues.from_email}
+                  onChange={(event) => {
+                    handleInputChange(event);
+                    validateEmail(event.target.value);
+                  }}
+                  required
+                />
+                <TextInput
+                  label="Subject"
+                  name="subject"
+                  value={formValues.subject}
+                  onChange={handleInputChange}
+                  required
+                />
+                <Textarea
+                  label="Message"
+                  name="html_message"
+                  value={formValues.html_message}
+                  onChange={handleInputChange}
+                  required
+                  rows={5}
+                />
+                <Button type="submit" style={{ marginTop: 22 }}>Send</Button>
+              </form>
+            </Paper>
+          </div>
+          <div style={{ flex: 1 }}>
+            <Paper p="md" shadow="xs" radius="md">
+              <div className="resumeContainer">
+                <Title order={3} style={{ marginBottom: '1rem' }}>
+                  Resume
+                </Title>
+                <a href={resumePDF} download>
+                  <h4 style={{ color: 'lightgray' }} className='btn'>Click here to download my resume</h4>
+                </a>
+              </div>
+            </Paper>
+          </div>
         </div>
-        <div style={{ flex: 1 }}>
-          <Paper p="md" shadow="xs" radius="md">
-            <div className="resumeContainer">
-              <Title order={3} style={{ marginBottom: '1rem' }}>
-                Resume
-              </Title>
-              <a href={resumePDF} download>
-                <h4 style={{ color: 'lightgray' }} className='btn'>Click here to download my resume</h4>
-              </a>
-            </div>
-          </Paper>
-        </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 }
 

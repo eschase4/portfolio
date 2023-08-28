@@ -128,7 +128,10 @@ code {
 }
 
 .footer {
-  position: absolute;
+  position: sticky;
   bottom: 0;
+  background-color: gray;
+  border-top: 15px outset gray;
   width: 100%;
+  z-index: 1000; /* You can adjust this value as needed */
 }

@@ -63,11 +63,11 @@ const HeaderComponent = () => {
                                     Projects
                                 </Button>
                             </Link>
-                            <Link to="/contact" style={{ textDecoration: 'none', marginRight: '8px', flex: 1 }}>
+                            {/* <Link to="/contact" style={{ textDecoration: 'none', marginRight: '8px', flex: 1 }}>
                                 <Button variant="link" color="blue" size="lg" className='btn'>
                                     Contact
                                 </Button>
-                            </Link>
+                            </Link> */}
                         </div>
                     </Flex>
                 </Container>
