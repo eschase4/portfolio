@@ -7,6 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1c1f25;
   max-height: 100vh;
+  overflow: hidden;
 }
 
 code {
@@ -94,11 +95,18 @@ code {
   transition: transform 0.1s ease-in-out;
   animation: bounce 0.5s ease-in-out;
 }
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+}
+
 .footer {
   position: sticky;
   bottom: 0;
   background-color: gray;
   border-top: 15px outset gray;
-  width: 100%;
+  width: 1000%;
   z-index: 1000; /* You can adjust this value as needed */
 }

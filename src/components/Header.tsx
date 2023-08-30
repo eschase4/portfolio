@@ -4,7 +4,7 @@ import '../index.css'
 
 const HeaderComponent = () => {
     return (
-        <div style={{ background: 'gray', borderBottom: '15px outset gray' }}>
+        <div style={{ background: '#0C1446', maxHeight: '18vh' }}>
             <Paper p="sm" shadow="xs" style={{ borderRadius: '0px' }}>
             {/* <Paper p="sm" shadow="xs" style={{ background: 'linear-gradient(to right, gray, black, gray)' }}> */}
                 <Container size="xl">

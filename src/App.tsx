@@ -14,18 +14,19 @@ import './index.css';
 
 function App() {
   return (
-    <MantineProvider theme={{ colorScheme: 'dark'}}>
+    <MantineProvider theme={{ colorScheme: 'dark' }}>
       <BrowserRouter basename="/portfolio">
         <HeaderComponent />
-        {/* <div style={{ height: '100%' }} > */}
-        <Routes>
-          <Route path="/*" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<ProjectSection />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        {/* </div> */}
-        <FooterComponent />
+        <div className='page-container'>
+          <Routes>
+            <Route path="/*" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<ProjectSection />} />
+          </Routes>
+        </div>
+        <div>
+          <FooterComponent />
+        </div>
       </BrowserRouter>
     </MantineProvider>
   );

@@ -7,14 +7,13 @@ const shape = process.env.PUBLIC_URL + '/assets/coolshape.png'
 
 const Home = () => {
   return (
-    <Paper p="md" shadow="xs" style={{ marginBottom: '1rem', minHeight: '100vh', borderRadius: '0px' }}>
-      <Container size="xl" display='inline'>
-
+    <Container style={{ width: '100%', minHeight: '71.8vh' }}>
+      {/* <Paper p="md" shadow="xs" style={{ borderRadius: '0px', position: 'relative', minHeight: '70vh', minWidth: '100%'}}> */}
         <div >
           <img className='coolShape' src={shape} alt="shape" style={{ width: '35%', height: 'auto', marginLeft: '33%', marginTop: '9%' }} />
         </div>
-      </Container>
-    </Paper>
+      {/* </Paper> */}
+    </Container>
   );
 };
 

@@ -48,7 +48,7 @@ function Contact() {
   }
 
   return (
-    <div style={{ minHeight: '100vh' }}>
+    // <div style={{ minHeight: '100vh' }}>
       <Container id="contact" size="md" mb="xl">
         <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>
           Contact
@@ -108,7 +108,7 @@ function Contact() {
           </div>
         </div>
       </Container>
-    </div>
+    // </div>
   );
 }
 

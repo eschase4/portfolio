@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function About() {
   return (
-    <div style={{minHeight: '100vh'}}>
+    <div style={{minHeight: '71.8vh'}}>
       <Container id="about" size="md">
         <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>
           About Me
@@ -61,7 +61,7 @@ function About() {
           </div>
         </div>
       </Container>
-    </div>
+    // </div>
   );
 }
 

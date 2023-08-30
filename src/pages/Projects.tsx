@@ -5,7 +5,8 @@ import '../index.css'
 
 const ProjectGrid = () => {
   return (
-    <Container style={{width: '95%'}}>
+    <div style={{minHeight: '71.8vh'}}>
+    <Container style={{width: '100%'}}>
       <Title style={{ marginBottom: '2rem', marginTop: '1rem', color: 'lightgray', textAlign: 'center' }}>Featured Projects</Title>
       <div
         style={{
@@ -39,6 +40,7 @@ const ProjectGrid = () => {
         ))}
       </div>
     </Container>
+    </div>
   );
 };
 

@@ -12,7 +12,7 @@ const resumePDF = process.env.PUBLIC_URL + '/assets/Eli_Chase_Resume_Software_En
 const githubLogo = icon({ prefix: 'fab', iconName: 'github' })
 const FooterComponent = () => {
     return (
-        <Container size="xl" style={{ minWidth: '100%', position: 'sticky', bottom: 0 }}>
+        <Container size="xl" style={{ minWidth: '104%', marginLeft: '-10%', position: 'sticky', bottom: 0 }}>
             <Paper style={{ minHeight: '0%' }}>
                 {/* email: eschase@gmail.com */}
                 <div >

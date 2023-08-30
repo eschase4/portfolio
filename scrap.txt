@@ -1,0 +1,28 @@
+// const movieFinderPreview = process.env.PUBLIC_URL + '/assets/Alabaster-Alligator_sc.png'; //624x506
+// const playlistPreview = process.env.PUBLIC_URL + '/assets/myPlaylist.png';
+// const techBlogPreview = process.env.PUBLIC_URL + '/assets/techblog.png';
+// const forecastPreview = process.env.PUBLIC_URL + '/assets/Forecast.png';
+
+//,
+//     {
+    //         name: "Playlist Maker",
+    //         link: "https://enigmatic-island-78855.herokuapp.com/",
+    //         preview: playlistPreview,
+    //         description: "Users can login and manage a personalized playlist. Uses Express.js, Node.js, Sequelize, and Handlebars.",
+    //         repoLink: "https://github.com/eschase4/Green-Parade"
+    //     },
+    //     {
+        //         name: "Tech Blog",
+        //         link: "https://fathomless-thicket-47575.herokuapp.com/home",
+        //         preview: techBlogPreview,
+        //         description: "Users can create an account, and post to a blog. Uses Express.js, Node.js, Sequelize, and Handlebars.",
+        //         repoLink: "https://github.com/eschase4/Tech-Blog"
+        //     },
+        //     {
+            //         name: "Weather Tracker",
+            //         link: "https://eschase4.github.io/Weather-App/",
+            //         preview: forecastPreview,
+            //         description: "Users can search for a city and recieve it's forecast for the next five days. Uses JavaScript, and the OpenWeather API",
+            //         repoLink: "https://github.com/eschase4/Weather-App"
+            //     },
+            // ]
