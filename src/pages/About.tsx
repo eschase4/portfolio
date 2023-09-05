@@ -25,7 +25,7 @@ function About() {
 
               </Text>
               <Text mt="md">
-                I am currently located in my home town of Erie, PA, but I am open to relocation.
+                I am currently located in Erie, PA, but I am planning to relocate to Austin, TX in the near future.
               </Text>
             </Paper>
           </div>
