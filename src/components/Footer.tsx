@@ -8,8 +8,6 @@ import '../index.css'
 
 const resumePDF = process.env.PUBLIC_URL + '/assets/Eli_Chase_Resume_Software_Engineer.pdf';
 
-// const githubLogo = process.env.PUBLIC_URL + '/assets/github.svg'
-const githubLogo = icon({ prefix: 'fab', iconName: 'github' })
 const FooterComponent = () => {
     return (
         <Container size="xl" style={{ minWidth: '104%', marginLeft: '-5%', position: 'sticky', bottom: 0 }}>
