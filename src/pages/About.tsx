@@ -18,7 +18,7 @@ function About() {
                 technologies like Node.js and Express. I love working with data, and connecting the back end to the front end.
               </Text>
               <Text size="md" mt="lg">
-                When I'm not coding, you can find me playing live with my band <Link style={{ color: 'grey' }} className='bandLink' to="https://open.spotify.com/artist/1f9BZQObzBu0lyVo0gwbYE?si=3NN8w4jbTmWTBjwssBxLbQ">Horseback Waterpolo</Link>,
+                When I'm not coding, you can find me playing live with my band <Link style={{ color: 'grey' }} className='bandLink' to="https://open.spotify.com/artist/2guiBCiMkMuCYcMOBuyx1y?si=SJdPLDTKRgmTaQBaN0JF_w">Horseback Waterpolo</Link>,
                 going out for hikes, or practicing Jiu Jitsu. I'm a firm believer in continuous learning, and I enjoy keeping up with the latest trends and
                 technologies in the software development world. Recently I've been working on adding Python to my arsenal. I'm looking forward to working on exciting projects and
                 collaborating with passionate teams to create innovative solutions.
